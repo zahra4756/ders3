@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="start">Başla</div>
+    <div>Davam et</div>
+
+    <script>
+        const startDiv = document.querySelector('.start');
+        const nextSibling = startDiv.nextElementSibling;
+        if (nextSibling) {
+          nextSibling.style.fontWeight = 'bold';
+        }
+</script>
+</body>
+</html>
